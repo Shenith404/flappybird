@@ -32,9 +32,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	 /* background:radial-gradient(lightgreen 50%, rgb(26, 0, 128)); */
 	border: 5px solid black;
 }
+
 .message {
 	position: absolute;
 	z-index: 10;
