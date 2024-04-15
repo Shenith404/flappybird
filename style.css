@@ -27,26 +27,24 @@
 	left: 100vw;
 	height: 70vh;
 	width: 6vw;
-	background: url("images/wall.webp") repeat center center fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	border: 5px solid black;
+	background: rgb(41, 38, 31);
+	border: 3px solid rgb(95, 84, 243);
 }
 
 .message {
 	position: absolute;
 	z-index: 10;
-	color: black;
+	color: rgb(255, 255, 255);
 	top: 30%;
 	left: 50%;
-	font-size: 4em;
+	font-size: 2em;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	border: 3px solid rgb(95, 84, 243);
+
 }
 .messageStyle{
-	background: white;
+	background: rgb(36, 12, 130);
 	padding: 30px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	border-radius: 5%;
@@ -66,7 +64,7 @@
 	position: fixed;
 	z-index: 10;
 	height: 10vh;
-	font-size: 10vh;
+	font-size: 5vh;
 	font-weight: 100;
 	color: white;
 	-webkit-text-stroke-width: 2px;
@@ -77,7 +75,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 .score_val {
-	color: gold;
+	color: rgb(0, 132, 255);
 	font-weight: bold;
 }
 @media only screen and (max-width: 1080px) {
