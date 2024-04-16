@@ -72,7 +72,7 @@ function play() {
                         element.increase_score == '1') {
                         score_val.innerHTML = +score_val.innerHTML + 1;
                         sound_point.play();
-                        if(parseInt(score_val.innerHTML)%3===0){
+                        if(parseInt(score_val.innerHTML)%5===0){
                             move_speed++;
                         }
                     }
