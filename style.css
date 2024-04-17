@@ -50,7 +50,7 @@
 	border-radius: 5%;
 }
 
-.flag {
+.msg {
 	position: absolute;
 	width: 300px; /* Adjust the width as needed */
 	height: 30px; /* Adjust the height as needed */
@@ -58,7 +58,6 @@
 	color: rgb(255, 255, 255); 
 	font-size: 60px;
 	font-weight: bold;/* Adjust the color as needed */
-	/* Add any other styles you want for the flag */
 }
 .score {
 	position: fixed;
