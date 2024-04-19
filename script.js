@@ -10793,19 +10793,19 @@ function play() {
         // Check for flag display at score 1
         if (parseInt(score_val.innerHTML) === 10 ) {
             msg.style.top = '50%';
-            msg.innerHTML = 'sdfas';// Center horizontally
+            msg.innerHTML = 'G4M3';// Center horizontally
         }  if (parseInt(score_val.innerHTML) === 11 ) {
             msg.style.top = '50%';
             msg.innerHTML = '';// Center horizontally
         }  if (parseInt(score_val.innerHTML) === 20 ) {
             msg.style.top = '50%';
-            msg.innerHTML = 'sdfsadf';// Center horizontally
+            msg.innerHTML = 'GAHANNA';// Center horizontally
         }  if (parseInt(score_val.innerHTML) === 21 ) {
             msg.style.top = '50%';
             msg.innerHTML = '';// Center horizontally
         }  if (parseInt(score_val.innerHTML) === 30 ) {
             msg.style.top = '50%';
-            msg.innerHTML = 'dasfsdf';// Center horizontally
+            msg.innerHTML = 'P155DA';// Center horizontally
         }
 
         requestAnimationFrame(move);
